@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>py_trees_ros_tutorials</name>
+  <version>2.1.0</version>
+  <description>
+    ROS2 extensions and behaviours for py_trees.
+  </description>
+
+  <maintainer email="d.stonier@gmail.com">Daniel Stonier</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">https://py-trees-ros-tutorials.readthedocs.io/en/release-2.0.x/</url>
+  <url type="repository">https://github.com/splintered-treality/py_trees_ros_tutorials</url>
+  <url type="bugtracker">https://github.com/splintered-treality/py_trees_ros_tutorials/issues</url>
+
+  <author>Daniel Stonier</author>
+
+  <build_depend>python3-setuptools</build_depend>
+  <build_depend>pyqt5-dev-tools</build_depend>
+  <build_depend>qttools5-dev-tools</build_depend>
+
+  <test_depend>python3-pytest</test_depend>
+
+  <!--
+  <doc_depend>lots_of_things_if_we_stop_using_readthedocs</doc_depend>
+  -->
+
+  <!-- mock dependencies -->
+  <exec_depend>action_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>py_trees</exec_depend>
+  <exec_depend>py_trees_ros</exec_depend>
+  <exec_depend>py_trees_ros_interfaces</exec_depend>
+  <exec_depend>python3-qt5-bindings</exec_depend>
+  <exec_depend>rcl_interfaces</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- tree dependencies -->
+  <exec_depend>py_trees</exec_depend>
+  <exec_depend>py_trees_ros</exec_depend>
+  <exec_depend>py_trees_ros_interfaces</exec_depend>
+  <exec_depend>rcl_interfaces</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- launch dependencies -->
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>ros2param</exec_depend>
+  <exec_depend>ros2run</exec_depend>
+  <exec_depend>ros2service</exec_depend>
+  <exec_depend>ros2topic</exec_depend>
+
+  <!-- test dependencies -->
+  <test_depend>action_msgs</test_depend>
+  <test_depend>py_trees</test_depend>
+  <test_depend>py_trees_ros</test_depend>
+  <test_depend>rclpy</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
