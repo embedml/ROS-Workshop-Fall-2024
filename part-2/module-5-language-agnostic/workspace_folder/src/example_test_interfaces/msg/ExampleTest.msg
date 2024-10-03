@@ -1,0 +1,2 @@
+String unity_id
+int32 seq_number
