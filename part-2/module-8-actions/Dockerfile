@@ -1,6 +1,6 @@
 # SFRT jwore@ncsu.edu
-FROM ros:iron
-ENV ROS_DISTRO iron
+FROM ros:humble
+ENV ROS_DISTRO=humble
 ENV DEBIAN_FRONTEND=noninteractive
 
 # INSTALL AN EASY-TO-USE EDITOR
