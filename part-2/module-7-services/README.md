@@ -4,7 +4,7 @@ The goal of this module is to build a package with a service server and a simple
 
 ## Milestone 0: Set up workshop
 
-Build and run the module.
+Build and run the module. (On Powershell, just use the run with `embedml/ros-humble-workshop:module-7` like in past modules.)
 
 ## Milestone 1: Inspect Structure
 

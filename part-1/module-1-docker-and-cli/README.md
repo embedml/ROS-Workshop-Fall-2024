@@ -20,6 +20,8 @@ cd part-1/module-1-docker-and-cli
 ls
 ```
 
+__The following has been causing issues on Powershell. Skip ahead to the part "If on Powershell..."__
+
 The first task is to build the Docker image from the Dockerfile in this folder.
 
 Add execution permissions on `ros_entrypoint.sh` using the `chmod` command.
@@ -31,15 +33,21 @@ chmod +x ros_entrypoint.sh
 Build the Docker image (this could take a few minutes):
 
 ```bash
-docker build . -t cli-workshop
+docker build . -t embedml/ros-humble-workshop:module-1
 ```
 
-In the previous `docker` command, the `-t cli-workshop` creates a docker *image*  from the `Dockerfile` build file.  
+In the previous `docker` command, the `-t embedml/ros-humble-workshop:module-1` creates a docker *image*  from the `Dockerfile` build file.  
 
 Start the `docker` container in interactive mode (`-it` flags) :
 
 ```bash
-docker run -it cli-workshop
+docker run -it embedml/ros-humble-workshop:module-1
+```
+
+__If on Powershell, then we will download a Docker image from the club Docker Hub__
+
+```bash
+docker run -it embedml/ros-humble-workshop:module-1
 ```
 
 You should now see the container's command prompt, something like:

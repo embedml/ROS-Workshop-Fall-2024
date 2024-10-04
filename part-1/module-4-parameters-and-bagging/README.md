@@ -5,10 +5,12 @@ The goals of this workshop are to learn about ROS parameter and a kind of Log Fi
 
 ## Milestone 0: Set up workshop.
 
-Build and run the workshop, where `workshop-4` is the IMAGE_NAME:
+Build and run the workshop, where `embedml/ros-humble-workshop:module-4` is the IMAGE_NAME:
 
 ```bash
+#Skip the first line on Powershell
 HINT:  docker (DO YOU RECALL THIS COMMAND?) . -t IMAGE_NAME
+#Start here with Powershell
 HINT:  docker run -it IMAGE_NAME
 ```
 

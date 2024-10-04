@@ -4,7 +4,7 @@ The goals of this module are to learn how learn how to find and modify an existi
 
 ## Milestone 0: Set up module
 
-* Build the module.
+* Build the module. (Again, this module should work fine building on Powershell, but refer back to the note in Milestone 0 of Module 6 if you encounter problems.)
 
 * Start the container.
 
@@ -60,6 +60,6 @@ Other tools in Foxglove include a panel for calling ROS Services and publishing 
 
 # End of 2024 EML ROS Workshop!
 
-Hopefully, this workshop gave plenty of practical experience in using Docker and the Robot Operating System. Please fill out the [attendance form](https://forms.gle/C99wPJC1sv7WEzTA6) if you haven't already.
+Hopefully, this workshop gave plenty of practical experience in using Docker and the Robot Operating System.
 
 Thanks again to Dr. Ore for the bulk of the material. I highly recommend his class ECE 591: Software for Robotics.

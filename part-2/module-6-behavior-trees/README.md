@@ -7,11 +7,13 @@ NOTE:  The authors of the `py-trees` code use the British spelling "behaviour" i
 
 ## Milestone 0: Set up module.
 
-Build the workshop, where `module-6` is the IMAGE_NAME:
+Build the workshop, where `embedml/ros-humble-workshop:module-6` is the IMAGE_NAME:
 
 ```bash
 HINT:  docker (DO YOU RECALL THIS COMMAND?) . (DO YOU RECALL THIS COMMAND?) IMAGE_NAME
 ```
+
+(Note: this module should build properly on Powershell, but if you encounter issues, then run `docker rmi -f embedml/ros-humble-workshop:module-6` and run `docker pull embedml/ros-humble-workshop:module-6` before continuing.)
 
 Run the docker image and link your local directory to a folder inside the docker container:
 

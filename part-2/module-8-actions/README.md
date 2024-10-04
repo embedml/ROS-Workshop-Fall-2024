@@ -4,7 +4,7 @@ The goals of this module are to learn how to create a ROS Package, create ROS Ac
 
 ## Milestone 0: Set up workshop and create a package.
 
-* Build the workshop.
+* Build the workshop. (Powershell should build fine, but refer back to the note in Milestone 0 of Module 6 to remove the image and pull the pre-built one.)
 * Start the container.
 
 Now let's create a new __package__ for our action. In the last workshop, this step was done for you.

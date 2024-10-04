@@ -14,14 +14,15 @@ Goals of this module:
 Open the terminal and navigate to the folder, build it, and run it.
 
 ```bash
+#Skip this block on Powershell
 cd module-3-launch-package
-docker build . -t ROS-module-3
+docker build . -t embedml/ros-humble-workshop:module-3
 ```
 
 Now run the docker container:
 
 ```bash
-docker run -it ROS-module-3
+docker run -it embedml/ros-humble-workshop:module-3
 ```
 
 (NOTE:  Running this container this way will means changes inside the container will __not__ persist after the container is stopped.  If you want the changes and edits to persist, or if you want to use an editor on your "host" machine, you can instead run this command with the `-v` option enabled, like `-v LOCAL_FOLDER:CONTAINER_FOLDER`.  On Windows Powershell, this would be mean adding `-v ${PWD}:/root` to the `docker run -it workshop-3` command, like `docker -v ${PWD}:/root -it workshop-3`.    On linux or OSX, this means adding `-v $(pwd):/root` to the command)

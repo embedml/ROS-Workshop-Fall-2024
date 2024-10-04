@@ -20,13 +20,13 @@ cd ../module-2-ros-intro
 This command reads the `Dockerfile` instructions and downloads code to build the environment (a docker "image") that we're going to use to run ros2. Build the ROS image:
 
 ```bash
-docker build . -t ROS-module-2
+docker build . -t embedml/ros-humble-workshop:module-2
 ```
 
 Now start this docker image, making a running docker "container":
 
 ```bash
-docker run -it ROS-module-2 
+docker run -it embedml/ros-humble-workshop:module-2
 ```
 
 You should see:
@@ -82,8 +82,6 @@ Let's look at that output in detail.
 |`[1597781864.860547100]` |This is a timestamp in "epoch" or "unix" time format.  The number to the left of the "." is the number of seconds since Midnight, Dec. 31, 1969 ([really!](https://en.wikipedia.org/wiki/Unix_time)), and number to the right is in nanoseconds.|
 |`[simple_publisher]` | The name of the node that is publishing this message.  This is useful because if you have messages from many nodes at once, it can be hard to know where the message came from. | 
 |`Publishing: "Hello World: 0"`| The debug message itself. |
-
-
 
 Lets modify the publisher code in `./src/hello_world/pub.py`.  You have several options for an editor, but it might be fastest to use the `nano` editor that is already build into this container.
 

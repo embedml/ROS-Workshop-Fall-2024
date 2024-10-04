@@ -4,7 +4,7 @@ This will be a relatively quick module focused on exploring the usage of ROS2 wi
 
 ## Milestone 0: Set up module
 
-Build and run the Docker container for the module, where `module-5` is the image name.
+Build and run the Docker container for the module, where `embedml/ros-humble-workshop:module-5` is the image name. (Again, if you use Powershell, just use the run command. It will automatically download a compatible Docker image from the Docker Hub and run the container.)
 
 ## Milestone 1: Exploring Custom Message
 
