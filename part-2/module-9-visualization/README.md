@@ -20,7 +20,7 @@ ros2 REMEMBER_THIS_COMMAND?  dummy_robot_bringup dummy_robot_bringup.launch.py
 
 This should start the `dummy robot` system.
 
-As mentioned in class, the `URDF` representation of a robot is often created dynamically at runtime. The running `dummy robot` provides 2 ways to get the URDF:
+The `URDF` representation of a robot is often created dynamically at runtime. The running `dummy robot` provides 2 ways to get the URDF:
 
 1. URDF is available in **a parameter.**
 2. URDF is available as **a ROS message**.
