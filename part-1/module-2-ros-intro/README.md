@@ -20,13 +20,13 @@ cd ../module-2-ros-intro
 This command reads the `Dockerfile` instructions and downloads code to build the environment (a docker "image") that we're going to use to run ros2. Build the ROS image:
 
 ```bash
-docker build . -t ROS-module-2
+docker build . -t ros-module-2
 ```
 
 Now start this docker image, making a running docker "container":
 
 ```bash
-docker run -it ROS-module-2 
+docker run -it ros-module-2 
 ```
 
 You should see:
