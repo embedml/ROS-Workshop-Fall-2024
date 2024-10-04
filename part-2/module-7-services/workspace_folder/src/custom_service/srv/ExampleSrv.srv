@@ -1,0 +1,4 @@
+float64[] distances
+geometry_msgs/Point[] locations
+---
+geometry_msgs/Point position
