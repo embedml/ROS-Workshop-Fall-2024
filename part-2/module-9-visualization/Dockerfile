@@ -1,6 +1,6 @@
 # SFRT jwore@ncsu.edu
 FROM ros:humble
-ENV ROS_DISTRO humble
+ENV ROS_DISTRO=humble
 ENV DEBIAN_FRONTEND=noninteractive
 
 # INSTALL AN EASY-TO-USE EDITOR
@@ -21,7 +21,7 @@ RUN echo 'set constantshow' >> ~/.nanorc
 RUN echo 'alias python=python3; \
 source "/opt/ros/$ROS_DISTRO/setup.bash"; \
 echo "----------------------"; \
-echo "WELCOME TO WORKSHOP 7!"; \
+echo "WELCOME TO MODULE 9!"; \
 echo "ROS_DISTRO=$ROS_DISTRO"; \
 echo "----------------------"' >> ~/.bashrc
 # SET ENTRYPOINT FOR ROS

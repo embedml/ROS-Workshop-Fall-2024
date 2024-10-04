@@ -1,6 +1,6 @@
 # SFRT jwore@ncsu.edu
 FROM ros:foxy
-ENV ROS_DISTRO foxy
+ENV ROS_DISTRO=foxy
 ENV DEBIAN_FRONTEND=noninteractive
 
 # INSTALL AN EASY-TO-USE EDITOR
@@ -18,7 +18,7 @@ RUN echo 'source "/opt/ros/$ROS_DISTRO/setup.bash"' >> ~/.bashrc
 RUN echo 'set constantshow' >> ~/.nanorc
 RUN echo 'include /usr/share/nano/python.nanorc' >> ~/.nanorc
 RUN echo 'echo "----------------------"' >> ~/.bashrc
-RUN echo 'echo "WELCOME TO WORKSHOP 5!"' >> ~/.bashrc
+RUN echo 'echo "WELCOME TO MODULE 6!"' >> ~/.bashrc
 RUN echo 'echo "ROS_DISTRO=$ROS_DISTRO"' >> ~/.bashrc
 RUN echo 'echo "----------------------"' >> ~/.bashrc
 # SET ENTRYPOINT FOR ROS

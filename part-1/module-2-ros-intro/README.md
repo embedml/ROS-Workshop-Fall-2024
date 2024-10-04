@@ -1,7 +1,7 @@
 # ROS2 pub/sub intro + ROS2 Command-Line-Interface
 
+Goals of this module:
 
-Goals of this workshop:
 * Run multiple ROS nodes and have them communicate (publish and subscribe) over a topic.
 * Become familiar with some ros2 command-line tools useful for debugging and logging.
 

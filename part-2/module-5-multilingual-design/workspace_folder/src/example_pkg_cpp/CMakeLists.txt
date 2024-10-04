@@ -17,7 +17,7 @@ include_directories(include)
 add_executable(testpub src/testpub.cpp)
 add_executable(testsub src/testsub.cpp)
 ament_target_dependencies(testpub rclcpp example_test_interfaces)
-ament_target_dependencies(testpub rclcpp example_test_interfaces)
+ament_target_dependencies(testsub rclcpp example_test_interfaces)
 
 install(TARGETS
     testpub

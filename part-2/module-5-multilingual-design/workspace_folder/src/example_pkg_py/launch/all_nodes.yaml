@@ -1,0 +1,17 @@
+launch:
+- node:
+    pkg: example_pkg_cpp
+    exec: testpub
+    name: cpp_testpub
+- node:
+    pkg: example_pkg_cpp
+    exec: testsub
+    name: cpp_testsub
+- node:
+    pkg: example_pkg_py
+    exec: testpub
+    name: py_testpub
+- node:
+    pkg: example_pkg_py
+    exec: testsub
+    name: py_testsub
