@@ -113,7 +113,7 @@ Try `ls` now, do you see `hi.txt`?   Why not?
 Now run (Unix/MacOS/WSL only)
 
 ```bash
-docker run -v $(pwd)/scratch:/scratch  -it cli-workshop
+docker run -v $(pwd)/scratch:/scratch  -it embedml/ros-humble-workshop:module-1
 ```
 
 Windows powershell users use `${PWD}` instead of `$(pwd)`.
