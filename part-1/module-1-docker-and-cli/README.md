@@ -119,7 +119,7 @@ docker run -v $(pwd)/scratch:/scratch  -it embedml/ros-humble-workshop:module-1
 Windows powershell users use `${PWD}` instead of `$(pwd)`.
 
 ```ps
-docker run -v ${PWD}/scratch:/scratch  -it cli-workshop
+docker run -v ${PWD}/scratch:/scratch  -it embedml/ros-humble-workshop:module-1
 ```
 
 The `-v $(pwd)...` (or `${PWD}`) part **creates a connection between you local machines and the environment inside the container, otherwise what happens in a container stays in the container during the containers lifetime**.
@@ -147,7 +147,7 @@ Do you see `hi.txt`?  (You should!, please ask for assistance if you do not)
 Restart the docker container:
 
 ```bash
-docker run -v $(pwd)/scratch:/scratch  -it cli-workshop
+docker run -v $(pwd)/scratch:/scratch  -it embedml/ros-humble-workshop:module-1
 ```
 
 Update the list of downloadable software packages (for Ubuntu).  [`sudo` is a weird command for increasing the privilege of your commands -- use `sudo` carefully and only when necessary](https://en.wikipedia.org/wiki/Sudo).
